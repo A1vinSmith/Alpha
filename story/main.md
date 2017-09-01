@@ -27,3 +27,6 @@
 3. So the spy exsist
 4. Find them all & kill
 5. Then find the rebellion army...
+
+## PS
+1. the spy not Nanometer, it's chip embraced a hunam body
