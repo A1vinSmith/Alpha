@@ -4,7 +4,7 @@ import { StackNavigator } from 'react-navigation';
 
 class HomeScreen extends React.Component {
   static navigationOptions = {
-    title: 'AI-Infection',
+    title: 'AI-Infection'
   };
   render() {
     const { navigate } = this.props.navigation;
@@ -20,22 +20,27 @@ class Profile extends React.Component {
   // Nav options can be defined as a function of the screen's props:
   static navigationOptions = ({ navigation }) => ({
     title: `Chat with ${navigation.state.params.name}`,
+    header: null,
   });
   render() {
     // The screen's current route is passed in to `props.navigation.state`:
     const { params } = this.props.navigation.state;
     return (
       <View>
+        <Text></Text>
         <Text>Chat with {params.name}</Text>
       </View>
     );
   }
 }
 
-const SimpleApp = StackNavigator({
-  Home: { screen: HomeScreen },
-  Profile: { screen: Profile },
-});
+const SimpleApp = StackNavigator(
+  {
+    Home: { screen: HomeScreen },
+    Profile: { screen: Profile },
+  },
+  //{ headerMode: 'none', } // headerMode none for all screen
+);
 
 export default class App extends React.Component {
   render() {
