@@ -1,18 +1,40 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
 class HomeScreen extends React.Component {
   static navigationOptions = {
-    title: 'Welcome',
+    title: 'AI-Infection',
   };
   render() {
-    return <Text>Hello, Navigation!</Text>;
+    const { navigate } = this.props.navigation;
+    return (
+      <View  style={styles.container}>
+        <Button color="purple" title="Start" onPress={() => navigate('Profile', { name: 'Jane' })} />
+      </View>
+    );
+  }
+}
+
+class Profile extends React.Component {
+  // Nav options can be defined as a function of the screen's props:
+  static navigationOptions = ({ navigation }) => ({
+    title: `Chat with ${navigation.state.params.name}`,
+  });
+  render() {
+    // The screen's current route is passed in to `props.navigation.state`:
+    const { params } = this.props.navigation.state;
+    return (
+      <View>
+        <Text>Chat with {params.name}</Text>
+      </View>
+    );
   }
 }
 
 const SimpleApp = StackNavigator({
   Home: { screen: HomeScreen },
+  Profile: { screen: Profile },
 });
 
 export default class App extends React.Component {
@@ -20,19 +42,6 @@ export default class App extends React.Component {
     return(
        <SimpleApp />
     )
-  }
-}
-
-/*
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-      </View>
-    );
   }
 }
 
@@ -44,4 +53,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-*/
