@@ -1,47 +1,53 @@
-import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
-import { StackNavigator } from 'react-navigation';
+import App from "./container"
+export default App
+/*
+import React, { Component }                     from 'react';
+import { StyleSheet, Text, View, Button }       from 'react-native';
+import { StackNavigator, addNavigationHelpers } from 'react-navigation';
+import { Provider, connect }                    from "react-redux";
 
-class HomeScreen extends React.Component {
-  static navigationOptions = {
-    title: 'AI-Infection'
-  };
+// import Routes from "./config/routes";
+import getStore from "./store/getStore";
+import {AppNavigator} from "./container/AppNavigator"
+
+@connect(state => ({
+  nav: state.nav
+}))
+class AppWithNavigationState extends Component {
   render() {
-    const { navigate } = this.props.navigation;
-    return (
-      <View  style={styles.container}>
-        <Button color="purple" title="Start" onPress={() => navigate('Profile', { name: 'Jane' })} />
-      </View>
-    );
+      return (
+          <AppNavigator
+              navigation={addNavigationHelpers({
+                  dispatch: this.props.dispatch,
+                  state: this.props.nav
+              })}
+          />
+      );
   }
 }
 
-class Profile extends React.Component {
-  // Nav options can be defined as a function of the screen's props:
-  static navigationOptions = ({ navigation }) => ({
-    title: `Chat with ${navigation.state.params.name}`,
-    header: null,
-  });
+const store = getStore()
+/*
+export default class App extends Component {
   render() {
-    // The screen's current route is passed in to `props.navigation.state`:
-    const { params } = this.props.navigation.state;
-    return (
-      <View>
-        <Text></Text>
-        <Text>Chat with {params.name}</Text>
-      </View>
-    );
+    return(
+      <Provider store={store}>
+        <AppWithNavigationState />
+      </Provider>
+    )
   }
 }
-
-const SimpleApp = StackNavigator(
-  {
-    Home: { screen: HomeScreen },
-    Profile: { screen: Profile },
-  },
-  //{ headerMode: 'none', } // headerMode none for all screen
-);
-
+*/
+/*
+export default function NCAP() {
+  return (
+      <Provider store={store}>
+          <AppWithNavigationState />
+      </Provider>
+  );
+}
+*/
+/*
 export default class App extends React.Component {
   render() {
     return(
@@ -58,3 +64,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+*/
