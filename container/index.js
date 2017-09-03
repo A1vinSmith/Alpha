@@ -1,39 +1,20 @@
-import React, { Component }                     from "react";
-import { Text }                                 from "react-native";
-import { Provider, connect }                    from "react-redux";
-import { StackNavigator, addNavigationHelpers } from "react-navigation";
+import React, { Component } from "react"
+import { Provider }         from "react-redux"
 
-import Routes       from "../config/routes";
-import getStore     from "../store";
-import AppNavigator from "./AppNavigator";
+import getStore             from "../store"
+import navReducer           from "../reducer/navReducer"
+import AppNavigationState   from "./AppNavigationState"
 
-const navReducer = (state, action) => {
-    const newState = AppNavigator.router.getStateForAction(action, state);
-    return newState || state;
-};
+const store = getStore(navReducer)
 
-@connect(state => ({
-    nav: state.nav
-}))
-class AppWithNavigationState extends Component {
+class App extends Component {
     render() {
         return (
-            <AppNavigator
-                navigation={addNavigationHelpers({
-                    dispatch: this.props.dispatch,
-                    state: this.props.nav
-                })}
-            />
+            <Provider store={store}>
+                <AppNavigationState />
+            </Provider>
         );
     }
 }
-
-const store = getStore(navReducer);
-
-export default function NCAP() {
-    return (
-        <Provider store={store}>
-            <AppWithNavigationState />
-        </Provider>
-    );
-}
+  
+export default App
