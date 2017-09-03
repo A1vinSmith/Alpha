@@ -3,7 +3,7 @@ import React, { Component }     from "react";
 import { addNavigationHelpers } from "react-navigation";
 
 import AppNavigator             from "./AppNavigator";
-
+/*
 @connect(state => ({
     nav: state.nav
 }))
@@ -21,3 +21,13 @@ class AppNavigationState extends Component {
 }
 
 export default AppNavigationState
+*/
+const AppNavigationState = ({ dispatch, nav }) => (
+    <AppNavigator navigation={addNavigationHelpers({ dispatch, state: nav })} />
+)
+
+const mapStateToProps = state => ({
+    nav: state.nav,
+});
+  
+export default connect(mapStateToProps)(AppNavigationState)
