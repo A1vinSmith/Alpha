@@ -39,37 +39,37 @@ const setVehicle = (vehicle, vehicleDetails) => {
     }
 }
 
-export function fetchModelYears() {
-    return function (dispatch, getState) {
+export const fetchModelYears = () => {
+    return (dispatch, getState) => {
         return NCAP.getModelYears()
             .then((response) => response.json())
             .then((modelYears) => dispatch(setModelYears(modelYears)))
             .catch((err) => console.log(err));
-    };
-};
+    }
+}
 
-export function fetchMakes(modelYear) {
-    return function (dispatch, getState) {
+export const fetchMakes = (modelYear) => {
+    return (dispatch, getState) => {
         return NCAP.getMakes(modelYear)
             .then((response) => response.json())
             .then((makes) => dispatch(setModelYear(modelYear, makes)))
             .catch((err) => console.log(err));
-    };
-};
+    }
+}
 
-export function fetchModels(make) {
+export const fetchModels = (make) => {
     const makeName = make.Make;
-    return function (dispatch, getState) {
+    return (dispatch, getState) => {
         return NCAP.getModels(make.ModelYear, makeName)
             .then((response) => response.json())
             .then((models) => dispatch(setMake(makeName, models)))
             .catch((err) => console.log(err));
-    };
-};
+    }
+}
 
-export function fetchVehicles(model) {
+export const fetchVehicles = (model) => {
     const modelName = model.Model;
-    return function (dispatch, getState) {
+    return (dispatch, getState) => {
         return NCAP.getVehicles(model.ModelYear, model.Make, modelName)
             .then((response) => response.json())
             .then((vehicles) => dispatch(setModel(modelName, vehicles)))
@@ -77,8 +77,8 @@ export function fetchVehicles(model) {
     }
 }
 
-export function fetchVehicleDetails(vehicle) {
-    return function (dispatch, getState) {
+export const fetchVehicleDetails = (vehicle) => {
+    return (dispatch, getState) => {
         return NCAP.getVehicle(vehicle.VehicleId)
             .then((response) => response.json())
             .then((vehicleDetails) => dispatch(setVehicle(vehicle.VehicleDescription, vehicleDetails)))
