@@ -4,12 +4,21 @@ import ModelList from "../component/ModelList";
 import VehicleList from "../component/VehicleList";
 import VehicleDetails from "../component/VehicleDetails";
 
+import LoginScreen from "../component/LoginScreen";
+import MainScreen from "../component/MainScreen";
+import ProfileScreen from "../component/ProfileScreen";
+
 const Routes = {
+    Login: { screen: LoginScreen },
+    Main: { screen: MainScreen },
+    Profile: { screen: ProfileScreen },
+    
     Home: { screen: ModelYearList },
     Makes: { screen: MakeList },
     Models: { screen: ModelList },
     Vehicles: { screen: VehicleList },
     VehicleDetails: { screen: VehicleDetails }
+    
 };
 
 export default Routes;

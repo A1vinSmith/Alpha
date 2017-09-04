@@ -1,12 +1,14 @@
 import { combineReducers } from "redux";
 
-import cars from "./car";
-import navReducer from "./navReducer"
+import carReducer   from "./car";
+import navReducer   from "./nav"
+import authReducer  from "./auth"
 
 const getRootReducer = () => {
     const rootReducer = combineReducers({
-        navReducer: navReducer,
-        cars: cars
+        nav: navReducer,
+        auth: authReducer,
+        cars: carReducer,
     })
     return rootReducer
 }

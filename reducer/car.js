@@ -1,6 +1,6 @@
 const initialState = {};
 
-export default function cars(state = initialState, action) {
+export default function carReducer(state = initialState, action) {
     switch (action.type) {
         case 'SET_MODEL_YEARS' :
             return {
