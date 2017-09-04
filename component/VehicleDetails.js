@@ -15,7 +15,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as carsActions from '../actions/cars';
+import * as carsActions from '../action/cars';
 
 const StarRating = (props) => {
     let starRating = props.starRating,

@@ -2,7 +2,7 @@ import { connect }              from "react-redux";
 import React, { Component }     from "react";
 import { addNavigationHelpers } from "react-navigation";
 
-import AppNavigator             from "./AppNavigator";
+import AppNavigator             from "../component/AppNavigator";
 /*
 @connect(state => ({
     nav: state.nav

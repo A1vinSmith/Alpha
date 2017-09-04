@@ -9,7 +9,7 @@ import BaseList from "./BaseList";
 
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import * as carsActions from "../actions/cars";
+import * as carsActions from "../action/cars";
 
 class MakeList extends BaseList {
     getListData() {
