@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 16,
-    marginTop: Platform.OS === 'ios' ? 0 : 0,
+    marginTop: Platform.OS === 'ios' ? 20 : 0,
   },
   image: {
     width: 36,

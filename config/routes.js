@@ -20,7 +20,7 @@ const Routes = {
     Vehicles: { screen: VehicleList },
     VehicleDetails: { screen: VehicleDetails },
 
-    LotsOfScreen: { screen: LotsOfScreen },
+    LotsOfScreen: { screen: LotsOfScreen, navigationOptions: { header: null }},
     
 };
 
