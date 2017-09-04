@@ -1,43 +1,43 @@
 import NCAP from '../data/NCAP';
 
-function setModelYears(modelYears) {
+const setModelYears = (modelYears) => {
     return {
         type : 'SET_MODEL_YEARS',
         modelYears
-    };
-};
+    }
+}
 
-function setModelYear(modelYear, makes) {
+const setModelYear = (modelYear, makes) => {
     return {
         type : 'SET_MODEL_YEAR',
         modelYear,
         makes
-    };
-};
+    }
+}
 
-function setMake(make, models) {
+const setMake = (make, models) => {
     return {
         type : 'SET_MAKE',
         make,
         models
-    };
-};
+    }
+}
 
-function setModel(model, vehicles) {
+const setModel = (model, vehicles) => {
     return {
         type : 'SET_MODEL',
         model,
         vehicles
-    };
-};
+    }
+}
 
-function setVehicle(vehicle, vehicleDetails) {
+const setVehicle = (vehicle, vehicleDetails) => {
     return {
         type : 'SET_VEHICLE',
         vehicle,
         vehicleDetails
-    };
-};
+    }
+}
 
 export function fetchModelYears() {
     return function (dispatch, getState) {
