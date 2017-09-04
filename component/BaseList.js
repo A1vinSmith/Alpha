@@ -1,6 +1,3 @@
-/**
- * Created by stan229 on 5/28/16.
- */
 import React, { Component } from 'react';
 
 import {
@@ -37,10 +34,10 @@ class BaseList extends Component {
 }
 
 
-var styles = StyleSheet.create({
-    container : {
-        flex      : 1
+const styles = StyleSheet.create({
+    container: {
+        flex: 1
     }
-});
+})
 
-export default BaseList;
+export default BaseList

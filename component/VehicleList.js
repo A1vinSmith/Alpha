@@ -1,6 +1,3 @@
-/**
- * Created by stan229 on 5/28/16.
- */
 import React from "react";
 
 import { View, Text, TouchableOpacity } from "react-native";

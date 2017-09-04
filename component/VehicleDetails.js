@@ -1,6 +1,3 @@
-/**
- * Created by stan229 on 5/29/16.
- */
 import React, {Component} from 'react';
 
 import {
@@ -11,10 +8,10 @@ import {
     Image
 } from 'react-native';
 
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon                     from 'react-native-vector-icons/FontAwesome';
+import { connect }              from 'react-redux';
+import { bindActionCreators }   from 'redux';
 
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import * as carsActions from '../action/cars';
 
 const StarRating = (props) => {

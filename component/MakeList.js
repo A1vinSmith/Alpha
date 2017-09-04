@@ -1,14 +1,11 @@
-/**
- * Created by stan229 on 5/28/16.
- */
-import React from "react";
+import React                    from "react";
+import { connect }              from "react-redux";
+import { bindActionCreators }   from "redux";
+import { View, 
+         Text, 
+         TouchableOpacity }     from "react-native";
 
-import { View, Text, TouchableOpacity } from "react-native";
-
-import BaseList from "./BaseList";
-
-import { connect } from "react-redux";
-import { bindActionCreators } from "redux";
+import BaseList         from "./BaseList";
 import * as carsActions from "../action/cars";
 
 class MakeList extends BaseList {

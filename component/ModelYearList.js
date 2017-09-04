@@ -1,19 +1,13 @@
-/**
- * Created by stan229 on 5/27/16.
- */
-
-import React, { Component } from "react";
-
+import React, { Component }     from "react";
+import { connect }              from "react-redux";
+import { bindActionCreators }   from "redux";
 import {
     View,
     Text,
     TouchableOpacity,
     ListView,
-    StyleSheet
-} from "react-native";
+    StyleSheet }                from "react-native";
 
-import { connect } from "react-redux";
-import { bindActionCreators } from "redux";
 import * as carsActions from "../action/cars";
 
 class ModelYearList extends Component {
