@@ -23,12 +23,12 @@ class AppNavigationState extends Component {
 
 export default AppNavigationState
 */
-const AppNavigationState = ({ dispatch, nav }) => (
-    <AppNavigator navigation={addNavigationHelpers({ dispatch, state: nav })} />
+const AppNavigationState = ({ dispatch, navCar }) => (
+    <AppNavigator navigation={addNavigationHelpers({ dispatch, state: navCar })} />
 )
 
 const mapStateToProps = state => ({
-    nav: state.nav,
+    navCar: state.navReducer,
 });
   
 export default connect(mapStateToProps)(AppNavigationState)

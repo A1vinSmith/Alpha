@@ -4,9 +4,9 @@ import reducer                          from '../reducer'
 
 const middleware = [ thunk ]
 
-const getStore = (navReducer, preloadedState) => {
+const getStore = (preloadedState) => {
   const store = createStore(
-    reducer(navReducer),
+    reducer(),
     preloadedState,
     applyMiddleware(...middleware)
   )
