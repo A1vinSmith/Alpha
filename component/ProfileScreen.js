@@ -30,7 +30,7 @@ const ProfileScreen = ({navigation}) => (
     </Text>
     <Button 
       style={styles.welcome}
-      onPress={() => navigation.navigate('Home')}
+      onPress={() => navigation.navigate('LotsOfScreen')}
       title="Press Me"
       >
     </Button>
