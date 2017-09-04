@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 import PropTypes from 'prop-types';
 
 const styles = StyleSheet.create({
@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
+    color: 'pink',
   },
 });
 
@@ -24,6 +25,12 @@ const ProfileScreen = ({navigation}) => (
       >
       Profile Screen
     </Text>
+    <Button 
+      style={styles.welcome}
+      onPress={() => navigation.navigate('Home')}
+      title="Press Me"
+      >
+    </Button>
   </View>
 );
 

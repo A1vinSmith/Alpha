@@ -1,10 +1,12 @@
+import * as types from "../constant/ActionType"
+
 const initialAuthState = { isLoggedIn: false };
 
 function authReducer(state = initialAuthState, action) {
   switch (action.type) {
-    case 'Login':
+    case types.LOGIN:
       return { ...state, isLoggedIn: true };
-    case 'Logout':
+    case types.LOGOUT:
       return { ...state, isLoggedIn: false };
     default:
       return state;

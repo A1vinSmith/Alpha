@@ -1,6 +1,7 @@
 import { NavigationActions } from 'react-navigation'
 
 import AppNavigator from '../component/AppNavigator'
+import * as types from "../constant/ActionType"
 
 //const carAction = AppNavigator.router.getActionForPathAndParams('Login');
 //const initCarNavReducer = AppNavigator.router.getStateForAction(carAction);
@@ -20,13 +21,13 @@ const navReducer = (state = initialNavState, action) => {
     
     let nextState;
     switch (action.type) {
-      case 'Login':
+      case types.LOGIN:
         nextState = AppNavigator.router.getStateForAction(
           NavigationActions.back(),
           state
         );
         break;
-      case 'Logout':
+      case types.LOGOUT:
         nextState = AppNavigator.router.getStateForAction(
           NavigationActions.navigate({ routeName: 'Login' }),
           state
