@@ -1,10 +1,5 @@
-/**
- * Created by stan229 on 5/2/16.
- */
 'use strict';
-
-const BASE_URL    = 'https://www.nhtsa.gov/webapi/api/SafetyRatings/',
-      BASE_PARAMS = 'format=json';
+import { BASE_URL, BASE_PARAMS } from "../constant"
 
 const NCAP  = {
     getModelYears () {

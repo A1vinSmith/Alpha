@@ -1,6 +1,3 @@
-/**
- * Created by stan229 on 5/27/16.
- */
 import NCAP from '../data/NCAP';
 
 function setModelYears(modelYears) {
