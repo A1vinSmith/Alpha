@@ -8,12 +8,13 @@ import LoginScreen      from "../component/LoginScreen";
 import MainScreen       from "../component/MainScreen";
 import ProfileScreen    from "../component/ProfileScreen";
 
-import LotsOfScreen    from "../component/tabs/App";
+import LotsOfScreen     from "../component/tabs/App";
 
 const Routes = {
     Login: { screen: LoginScreen },
     Main: { screen: MainScreen },
     Profile: { screen: ProfileScreen },
+
     Home: { screen: ModelYearList },
     Makes: { screen: MakeList },
     Models: { screen: ModelList },
