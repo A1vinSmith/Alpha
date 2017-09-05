@@ -5,12 +5,9 @@ import * as types from "../constant/ActionType"
 
 // Start with two routes: The Main screen, with the Login screen on top.
 const firstAction = AppNavigator.router.getActionForPathAndParams('Main');
-const tempNavState = AppNavigator.router.getStateForAction(firstAction);
+const firstNavState = AppNavigator.router.getStateForAction(firstAction);
 const secondAction = AppNavigator.router.getActionForPathAndParams('Login');
-const initialNavState = AppNavigator.router.getStateForAction(
-  secondAction,
-  tempNavState
-);
+const initialNavState = AppNavigator.router.getStateForAction(secondAction, firstNavState);
 
 const navReducer = (state = initialNavState, action) => {
     let nextState;
