@@ -5,7 +5,7 @@ const setModelYears = (modelYears) => {
         type : 'SET_MODEL_YEARS',
         modelYears
     }
-}
+};
 
 const setModelYear = (modelYear, makes) => {
     return {
@@ -13,7 +13,7 @@ const setModelYear = (modelYear, makes) => {
         modelYear,
         makes
     }
-}
+};
 
 const setMake = (make, models) => {
     return {
@@ -21,7 +21,7 @@ const setMake = (make, models) => {
         make,
         models
     }
-}
+};
 
 const setModel = (model, vehicles) => {
     return {
@@ -29,7 +29,7 @@ const setModel = (model, vehicles) => {
         model,
         vehicles
     }
-}
+};
 
 const setVehicle = (vehicle, vehicleDetails) => {
     return {
@@ -37,7 +37,7 @@ const setVehicle = (vehicle, vehicleDetails) => {
         vehicle,
         vehicleDetails
     }
-}
+};
 
 export const fetchModelYears = () => {
     return (dispatch, getState) => {
@@ -46,7 +46,7 @@ export const fetchModelYears = () => {
             .then((modelYears) => dispatch(setModelYears(modelYears)))
             .catch((err) => console.log(err));
     }
-}
+};
 
 export const fetchMakes = (modelYear) => {
     return (dispatch, getState) => {
@@ -55,7 +55,7 @@ export const fetchMakes = (modelYear) => {
             .then((makes) => dispatch(setModelYear(modelYear, makes)))
             .catch((err) => console.log(err));
     }
-}
+};
 
 export const fetchModels = (make) => {
     const makeName = make.Make;
@@ -65,7 +65,7 @@ export const fetchModels = (make) => {
             .then((models) => dispatch(setMake(makeName, models)))
             .catch((err) => console.log(err));
     }
-}
+};
 
 export const fetchVehicles = (model) => {
     const modelName = model.Model;
@@ -75,7 +75,7 @@ export const fetchVehicles = (model) => {
             .then((vehicles) => dispatch(setModel(modelName, vehicles)))
             .catch((err) => console.log(err));
     }
-}
+};
 
 export const fetchVehicleDetails = (vehicle) => {
     return (dispatch, getState) => {
@@ -84,4 +84,4 @@ export const fetchVehicleDetails = (vehicle) => {
             .then((vehicleDetails) => dispatch(setVehicle(vehicle.VehicleDescription, vehicleDetails)))
             .catch((err) => console.log(err));
     }
-}
+};
