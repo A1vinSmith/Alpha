@@ -1,16 +1,29 @@
 import React                  from 'react'
 import PropTypes              from 'prop-types'
 import { connect }            from 'react-redux'
-import { Button }             from 'react-native'
 import { NavigationActions }  from 'react-navigation'
+import { Text, StyleSheet }   from 'react-native'
+
 
 import * as types from "../../constant/ActionType"
 
+const styles = StyleSheet.create({
+    container: {
+        //flex: 1,
+        //justifyContent: 'center',
+        //alignItems: 'center',
+        //backgroundColor: '#F5FCFF',
+        //backgroundColor: 'white',
+        color: 'gray',
+    }
+});
+
 const AuthButton = ({ logout, loginScreen, isLoggedIn }) => (
-  <Button
-    title={isLoggedIn ? 'Log Out' : 'Log In'}
-    onPress={isLoggedIn ? logout : loginScreen}
-  />
+    <Text
+        style={styles.container}
+        onPress={isLoggedIn ? logout : loginScreen} >
+        {isLoggedIn ? 'Switch Account' : 'Log In'}
+    </Text>
 );
 
 AuthButton.propTypes = {
