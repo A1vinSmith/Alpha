@@ -4,7 +4,7 @@ import { Provider }         from "react-redux"
 import getStore             from "../store"
 import AppNavigationState   from "./AppNavigationState"
 
-const store = getStore()
+const store = getStore();
 
 class App extends Component {
     render() {

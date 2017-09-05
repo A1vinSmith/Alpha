@@ -25,7 +25,7 @@ export default AppNavigationState
 */
 const AppNavigationState = ({ dispatch, nav }) => (
     <AppNavigator navigation={addNavigationHelpers({ dispatch, state: nav })} />
-)
+);
 
 const mapStateToProps = state => ({
     nav: state.nav,
