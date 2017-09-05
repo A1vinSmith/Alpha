@@ -8,7 +8,7 @@ import {
     ListView,
     StyleSheet }                from "react-native";
 
-import * as carsActions from "../action/cars";
+import * as carsActions from "../../action/cars";
 
 class ModelYearList extends Component {
     static navigationOptions = {

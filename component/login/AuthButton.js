@@ -4,7 +4,7 @@ import { connect }            from 'react-redux'
 import { Button }             from 'react-native'
 import { NavigationActions }  from 'react-navigation'
 
-import * as types from "../constant/ActionType"
+import * as types from "../../constant/ActionType"
 
 const AuthButton = ({ logout, loginScreen, isLoggedIn }) => (
   <Button

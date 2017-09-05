@@ -6,7 +6,7 @@ import {
   Text, 
   View }          from 'react-native'
 
-import * as types from '../constant/ActionType'
+import * as types from '../../constant/ActionType'
 
 const styles = StyleSheet.create({
   container: {

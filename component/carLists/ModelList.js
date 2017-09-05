@@ -6,7 +6,7 @@ import { View,
          TouchableOpacity }     from "react-native"
 
 import BaseList         from "./BaseList"
-import * as carsActions from "../action/cars"
+import * as carsActions from "../../action/cars"
 
 class ModelList extends BaseList {
     getListData() {

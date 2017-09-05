@@ -6,7 +6,7 @@ import BaseList from "./BaseList";
 
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import * as carsActions from "../action/cars";
+import * as carsActions from "../../action/cars";
 
 class VehicleList extends BaseList {
     getListData() {
