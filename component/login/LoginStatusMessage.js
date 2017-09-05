@@ -14,11 +14,14 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     margin: 10,
   },
+  login: {
+    color: '#808080'
+  }
 });
 
 const LoginStatusMessage = ({ isLoggedIn, dispatch }) => {
   if (!isLoggedIn) {
-    return <Text>Please log in</Text>;
+    return <Text style={styles.login}>Please log in</Text>;
   }
   return (
     <View>
@@ -28,7 +31,7 @@ const LoginStatusMessage = ({ isLoggedIn, dispatch }) => {
       <Button
         onPress={() =>
           dispatch(NavigationActions.navigate({ routeName: 'Profile' }))}
-        title="Profile"
+        title="Menu to Start"
       />
     </View>
   );

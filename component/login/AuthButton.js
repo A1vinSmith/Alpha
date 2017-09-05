@@ -8,7 +8,7 @@ import * as types from "../../constant/ActionType"
 
 const AuthButton = ({ logout, loginScreen, isLoggedIn }) => (
   <Button
-    title={isLoggedIn ? 'Log Out' : 'Open Login Screen'}
+    title={isLoggedIn ? 'Log Out' : 'Log In'}
     onPress={isLoggedIn ? logout : loginScreen}
   />
 );
