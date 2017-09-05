@@ -13,7 +13,7 @@ import LotsOfScreen     from "../component/tabs/App";
 const Routes = {
     Login: { screen: LoginScreen },
     Main: { screen: MainScreen, navigationOptions: { header: null } },
-    Profile: { screen: ProfileScreen },
+    Profile: { screen: ProfileScreen, navigationOptions: { header: null } },
 
     Home: { screen: ModelYearList },
     Makes: { screen: MakeList },
