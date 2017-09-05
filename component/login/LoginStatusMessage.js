@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 
 const LoginStatusMessage = ({ isLoggedIn, dispatch }) => {
   if (!isLoggedIn) {
-    return <Text style={styles.login}>Please log in</Text>;
+    return <Text style={styles.login}></Text>;
   }
   return (
     <View>

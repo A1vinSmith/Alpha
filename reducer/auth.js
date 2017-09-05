@@ -1,6 +1,6 @@
 import * as types from "../constant/ActionType"
 
-const initialAuthState = { isLoggedIn: true };
+const initialAuthState = { isLoggedIn: false };
 
 const authReducer = (state = initialAuthState, action) => {
   switch (action.type) {

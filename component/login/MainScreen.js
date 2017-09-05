@@ -13,12 +13,11 @@ const styles = StyleSheet.create({
         //backgroundColor: '#F5FCFF',
         backgroundColor: '#0a0809',
     },
-    loginIcon : {
+    loginIcon: {
         //resizeMode: 'cover',
-        width: 200,
-        height: 200,
-    }
-
+        width: 200, height: 200,
+        margin: 111,
+    },
 });
 
 const MainScreen = () => (
@@ -27,8 +26,8 @@ const MainScreen = () => (
           style={styles.loginIcon}
           source={require('./assets/gif/loginIcon.gif')}
       />
-    <LoginStatusMessage />
-    <AuthButton />
+      <LoginStatusMessage />
+      <AuthButton />
   </View>
 );
 
