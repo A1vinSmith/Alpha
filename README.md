@@ -1,6 +1,9 @@
 ## yarn start
 sudo sysctl -w kern.maxfiles=5242880
 
+## Pay attention
+Use master as dev, and vice versa
+
 ## Table of Contents
 
 * [Updating to New Releases](#updating-to-new-releases)
