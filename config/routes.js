@@ -10,6 +10,8 @@ import ProfileScreen    from "../component/login/ProfileScreen";
 
 import LotsOfScreen     from "../component/tabs/App";
 
+import MainDrawer       from "../component/tabs/Drawer"
+
 const Routes = {
     Login: { screen: LoginScreen },
     Main: { screen: MainScreen, navigationOptions: { header: null } },
@@ -22,6 +24,8 @@ const Routes = {
     VehicleDetails: { screen: VehicleDetails },
 
     LotsOfScreen: { screen: LotsOfScreen, navigationOptions: { header: null }},
+
+    MainDrawer: { screen: MainDrawer, navigationOptions: { header: null }}
     
 };
 
