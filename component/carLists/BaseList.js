@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 import {
-    View,
-    Text,
-    TouchableOpacity,
     ListView,
     StyleSheet
 } from 'react-native';
@@ -13,7 +10,7 @@ class BaseList extends Component {
         this.initDataSource(this.getListData());
     }
     initDataSource(rows) {
-        var dataSource = new ListView.DataSource({
+        let dataSource = new ListView.DataSource({
             rowHasChanged : (row1, row2) => row1 !== row2,
         }).cloneWithRows(rows);
 
@@ -38,6 +35,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1
     }
-})
+});
 
 export default BaseList
