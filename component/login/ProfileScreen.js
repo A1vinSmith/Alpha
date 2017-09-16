@@ -7,7 +7,6 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        //backgroundColor: '#F5FCFF',
         backgroundColor: '#050806',
     },
     welcome: {
@@ -27,7 +26,7 @@ const ProfileScreen = ({navigation}) => (
       style={styles.welcome}
       onPress={() => navigation.navigate('Home')}
       >
-      Profile Screen
+      Cars
     </Text>
       <Image
           style={styles.heartBeat}
@@ -36,7 +35,7 @@ const ProfileScreen = ({navigation}) => (
     <Button 
       style={styles.welcome}
       onPress={() => navigation.navigate('LotsOfScreen')}
-      title="Press Me"
+      title="Tabs"
       >
     </Button>
   </View>
