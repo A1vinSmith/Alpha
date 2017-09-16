@@ -5,6 +5,7 @@ import {
     Text, TextInput, View } from 'react-native'
 
 import * as types           from '../../constant/ActionType'
+import { setUserName }      from '../../action/login'
 
 
 class LoginScreen extends Component {
@@ -22,7 +23,7 @@ class LoginScreen extends Component {
                 </Text>
                 <TextInput
                     style={{height: 40}}
-                    placeholder="Type here to translate!"
+                    placeholder="Type here to Answer!"
                     onChangeText={(text) => this.setState({text})}
                 />
                 <Text style={{padding: 10, fontSize: 42}}>
@@ -32,7 +33,10 @@ class LoginScreen extends Component {
                     This is great
                 </Text>
                 <Button
-                    onPress={() => navigation.dispatch({ type: types.LOGIN })}
+                    onPress={() => {
+                        navigation.dispatch(setUserName(this.state.text));
+                        navigation.dispatch({ type: types.LOGIN })
+                    }}
                     title="Log in"
                 />
             </View>
@@ -41,11 +45,11 @@ class LoginScreen extends Component {
 }
 
 LoginScreen.propTypes = {
-  navigation: PropTypes.object.isRequired,
+    navigation: PropTypes.object.isRequired,
 };
 
 LoginScreen.navigationOptions = {
-  header: null,
+    header: null,
 };
 
 const styles = StyleSheet.create({

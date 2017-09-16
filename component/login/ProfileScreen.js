@@ -1,5 +1,6 @@
 import React          from 'react';
 import PropTypes      from 'prop-types';
+import { connect }    from 'react-redux'
 import { StyleSheet, Text, Image, View, Button } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -20,13 +21,13 @@ const styles = StyleSheet.create({
     }
 });
 
-const ProfileScreen = ({navigation}) => (
+const ProfileScreen = ({navigation, user_name}) => (
   <View style={styles.container}>
     <Text 
       style={styles.welcome}
       onPress={() => navigation.navigate('Home')}
       >
-      Cars
+      Cars {user_name}
     </Text>
       <Image
           style={styles.heartBeat}
@@ -49,4 +50,8 @@ ProfileScreen.navigationOptions = {
   title: 'Profile',
 };
 
-export default ProfileScreen;
+const mapStateToProps = state => ({
+    user_name: state.userInfo.user_name
+});
+
+export default connect(mapStateToProps)(ProfileScreen);
