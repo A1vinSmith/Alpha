@@ -10,7 +10,7 @@ import ProfileScreen    from "../component/login/ProfileScreen";
 
 import LotsOfScreen     from "../component/tabs/App";
 
-import MainApp          from "../container/Main"
+import MainApp          from "../container/Game/Main"
 
 const Routes = {
     Login: { screen: LoginScreen },

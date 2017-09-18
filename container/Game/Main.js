@@ -6,7 +6,7 @@ import React                                        from 'react'
 import { Button, Platform, ScrollView, StyleSheet } from 'react-native'
 import { DrawerNavigator }                          from 'react-navigation'
 import MaterialIcons                                from 'react-native-vector-icons/MaterialIcons'
-import SampleText                                   from '../component/tabs/SampleText'
+import SampleText                                   from '../../component/tabs/SampleText'
 
 /*
 const MyNavScreen = ({ navigation, banner }) => (
