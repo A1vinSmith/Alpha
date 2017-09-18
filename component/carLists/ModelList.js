@@ -8,6 +8,12 @@ import { View,
 import BaseList         from "./BaseList"
 import * as carsActions from "../../action/cars"
 
+@connect(
+    state => ({
+        models: state.cars.models
+    }),
+    dispatch => bindActionCreators(carsActions, dispatch)
+)
 class ModelList extends BaseList {
     getListData() {
         return this.props.models.Results;
@@ -30,10 +36,12 @@ class ModelList extends BaseList {
             .then(() => navigate("Vehicles", { title: model.Model }));
     };
 }
-
+/*
 export default connect(
     state => ({
         models: state.cars.models
     }),
     dispatch => bindActionCreators(carsActions, dispatch)
 )(ModelList);
+*/
+export default ModelList
