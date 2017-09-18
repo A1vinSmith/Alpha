@@ -8,6 +8,7 @@ import { DrawerNavigator } from 'react-navigation';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import SampleText from '../component/tabs/SampleText';
 
+/*
 const MyNavScreen = ({ navigation, banner }) => (
     <ScrollView style={styles.container}>
         <SampleText>{banner}</SampleText>
@@ -18,9 +19,14 @@ const MyNavScreen = ({ navigation, banner }) => (
         <Button onPress={() => navigation.goBack(null)} title="Go back" />
     </ScrollView>
 );
+*/
+// Usage: <MyNavScreen banner={'Drafts Screen'} navigation={navigation} />
 
 const InboxScreen = ({ navigation }) => (
-    <MyNavScreen banner={'Inbox Screen'} navigation={navigation} />
+    <ScrollView style={styles.container}>
+        <SampleText>Now it's inbox screen</SampleText>
+        <Button onPress={() => navigation.goBack(null)} title="Go back" />
+    </ScrollView>
 );
 InboxScreen.navigationOptions = {
     drawerLabel: 'Inbox',
@@ -34,7 +40,10 @@ InboxScreen.navigationOptions = {
 };
 
 const DraftsScreen = ({ navigation }) => (
-    <MyNavScreen banner={'Drafts Screen'} navigation={navigation} />
+    <ScrollView style={styles.container}>
+        <SampleText>Now it's draft screen</SampleText>
+        <Button onPress={() => navigation.goBack(null)} title="Go back" />
+    </ScrollView>
 );
 DraftsScreen.navigationOptions = {
     drawerLabel: 'Drafts',
@@ -55,7 +64,8 @@ const MainApp = DrawerNavigator(
         },
     },
     {
-        initialRouteName: 'Drafts',
+        //initialRouteName: 'Drafts',
+        initialRouteName: 'Inbox',
         contentOptions: {
             activeTintColor: '#e91e63',
         },
