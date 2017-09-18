@@ -53,6 +53,7 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
     logout: () => dispatch({ type: types.LOGOUT }),
     loginScreen: () => dispatch(NavigationActions.navigate({ routeName: 'Login' })),
+    //profileScreen: () => dispatch(NavigationActions.navigate({ routeName: 'MainDrawer' })),
     profileScreen: () => dispatch(NavigationActions.navigate({ routeName: 'Profile' })),
 });
 
