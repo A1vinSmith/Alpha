@@ -8,6 +8,8 @@ import { DrawerNavigator }                          from 'react-navigation'
 import MaterialIcons                                from 'react-native-vector-icons/MaterialIcons'
 import SampleText                                   from '../../component/tabs/SampleText'
 
+import DialogScreen from './Dialog'
+
 /*
 const MyNavScreen = ({ navigation, banner }) => (
     <ScrollView style={styles.container}>
@@ -62,6 +64,10 @@ const MainApp = DrawerNavigator(
             path: '/sent',
             screen: DraftsScreen,
         },
+        Dialog: {
+            path: '/dialog',
+            screen: DialogScreen,
+        }
     },
     {
         //initialRouteName: 'Drafts',
