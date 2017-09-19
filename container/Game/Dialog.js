@@ -1,13 +1,12 @@
-import React, { Component }     from "react";
-import { connect }              from "react-redux";
+import React, { Component }     from "react"
+import { connect }              from "react-redux"
 import PropTypes                from 'prop-types'
-import { bindActionCreators }   from "redux";
+import { bindActionCreators }   from "redux"
 import {
     View, ScrollView,
-    Text, Button,
-    StyleSheet }                from "react-native";
-import MaterialIcons            from 'react-native-vector-icons/MaterialIcons'
-import * as testActions         from "../../action/test";
+    Text, Button, StatusBar,
+    StyleSheet }                from "react-native"
+import * as testActions         from "../../action/test"
 
 @connect(
     state => ({
@@ -16,9 +15,6 @@ import * as testActions         from "../../action/test";
     dispatch => bindActionCreators(testActions, dispatch)
 )
 class Dialog extends Component {
-    static navigationOptions = {
-        title: "hello world"
-    };
 
     static propTypes = {
         userInfo: PropTypes.object.isRequired
@@ -48,6 +44,7 @@ class Dialog extends Component {
 
         return (
             <ScrollView style={styles.container}>
+                <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
                 <Button onPress={() => navigation.goBack(null)} title="Go back" />
                 <Text>Fetch Done{userInfo.user_name}</Text>
             </ScrollView>
@@ -55,14 +52,6 @@ class Dialog extends Component {
         );
     }
 }
-
-Dialog.navigationOptions = {
-    //drawerLabel: <Text size={24} style={{ color: 'blue' }}>drawerLabel Text</Text>,
-    drawerLabel: 'Dialog',
-    drawerIcon: ({ tintColor }) => (
-        <MaterialIcons name="assessment" size={24} style={{ color: 'rgba(0,78,0,0.9)' }} />
-    ),
-};
 
 const styles = StyleSheet.create({
     container: {

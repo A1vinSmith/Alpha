@@ -1,13 +1,11 @@
 /**
  * @flow
  */
-
 import React                                        from 'react'
 import { Button, Platform, ScrollView, StatusBar,
          StyleSheet, Text }                         from 'react-native'
 import { DrawerNavigator }                          from 'react-navigation'
 import MaterialIcons                                from 'react-native-vector-icons/MaterialIcons'
-import SampleText                                   from '../../component/tabs/SampleText'
 
 import DialogScreen from './Dialog'
 
@@ -28,52 +26,60 @@ const MyNavScreen = ({ navigation, banner }) => (
 const InboxScreen = ({ navigation }) => (
     <ScrollView style={styles.container}>
         <StatusBar hidden={true} backgroundColor='rgba(38,38,38,1)' />
-        <SampleText>Now it's inbox screen</SampleText>
-        <Button onPress={() => navigation.goBack(null)} title="Go back" />
-        <Text>Height: {StatusBar.currentHeight} pts</Text>
+        <Text>Action Points: 5</Text>
+        <Text>Exposure: 10%</Text>
     </ScrollView>
 );
 InboxScreen.navigationOptions = {
     drawerLabel: 'Analyze',
     drawerIcon: ({ tintColor }) => (
-        <MaterialIcons name="assessment" size={24} style={{ color: 'rgba(0,0,0,0.9)' }} />
+        <MaterialIcons name="assessment" size={24} style={{ color: tintColor }} />
     )
 };
 
 const DraftsScreen = ({ navigation }) => (
     <ScrollView style={styles.container}>
         <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
-        <SampleText>Now it's draft screen</SampleText>
-        <Button onPress={() => navigation.goBack(null)} title="Go back" />
-        <Text>Height: {StatusBar.currentHeight} pts</Text>
+        <Text>Save</Text>
+        <Text>Restart</Text>
+        <Text>The End</Text>
     </ScrollView>
 );
 DraftsScreen.navigationOptions = {
     drawerLabel: 'Setting',
     drawerIcon: ({ tintColor }) => (
-        <MaterialIcons name="settings" size={24} style={{ color: 'rgba(0,0,0,0.9)' }} />
+        <MaterialIcons name="settings" size={24} style={{ color: tintColor }} />
     )
+};
+
+DialogScreen.navigationOptions = {
+    drawerLabel: 'Operate',
+    drawerIcon: ({ tintColor }) => (
+        <MaterialIcons name="smartphone" size={24} style={{ color: tintColor }} />
+    ),
 };
 
 const MainApp = DrawerNavigator(
     {
-        Analyze: {
+        Dialog: {
             path: '/',
+            screen: DialogScreen,
+        },
+        Analyze: {
+            path: '/analyze',
             screen: InboxScreen,
         },
         Setting: {
             path: '/setting',
             screen: DraftsScreen,
         },
-        Dialog: {
-            path: '/dialog',
-            screen: DialogScreen,
-        }
+
     },
     {
-        initialRouteName: 'Analyze',
+        initialRouteName: 'Dialog',
         contentOptions: {
-            activeTintColor: '#b8b8b8',
+            activeTintColor: 'rgba(184,184,184,0.7)',
+            //activeBackgroundColor: 'rgba(146,146,146,0.7)',
             //inactiveBackgroundColor: '#1f1f1f',
             style: {
                 backgroundColor: 'rgba(38,38,38,1)',
