@@ -57,9 +57,10 @@ class Dialog extends Component {
 }
 
 Dialog.navigationOptions = {
+    //drawerLabel: <Text size={24} style={{ color: 'blue' }}>drawerLabel Text</Text>,
     drawerLabel: 'Dialog',
     drawerIcon: ({ tintColor }) => (
-        <MaterialIcons name="drafts" size={24} style={{ color: tintColor }} />
+        <MaterialIcons name="assessment" size={24} style={{ color: 'rgba(0,78,0,0.9)' }} />
     ),
 };
 

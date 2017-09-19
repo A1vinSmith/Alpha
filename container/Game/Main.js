@@ -31,13 +31,9 @@ const InboxScreen = ({ navigation }) => (
     </ScrollView>
 );
 InboxScreen.navigationOptions = {
-    drawerLabel: 'Inbox',
+    drawerLabel: 'Analyze',
     drawerIcon: ({ tintColor }) => (
-        <MaterialIcons
-            name="move-to-inbox"
-            size={24}
-            style={{ color: tintColor }}
-        />
+        <MaterialIcons name="assessment" size={24} style={{ color: 'rgba(0,0,0,0.9)' }} />
     ),
 };
 
@@ -48,9 +44,9 @@ const DraftsScreen = ({ navigation }) => (
     </ScrollView>
 );
 DraftsScreen.navigationOptions = {
-    drawerLabel: 'Drafts',
+    drawerLabel: 'Setting',
     drawerIcon: ({ tintColor }) => (
-        <MaterialIcons name="drafts" size={24} style={{ color: tintColor }} />
+        <MaterialIcons name="settings" size={24} style={{ color: 'rgba(0,0,0,0.9)' }} />
     ),
 };
 
@@ -73,7 +69,12 @@ const MainApp = DrawerNavigator(
         //initialRouteName: 'Drafts',
         initialRouteName: 'Inbox',
         contentOptions: {
-            activeTintColor: '#e91e63',
+            activeTintColor: '#b8b8b8',
+            //inactiveBackgroundColor: '#1f1f1f',
+            style: {
+                backgroundColor: 'rgba(38,38,38,1)',
+                flex: 1 // Use this to make background covered
+            }
         },
     }
 );
