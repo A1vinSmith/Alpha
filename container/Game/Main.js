@@ -3,7 +3,8 @@
  */
 
 import React                                        from 'react'
-import { Button, Platform, ScrollView, StyleSheet } from 'react-native'
+import { Button, Platform, ScrollView, StatusBar,
+         StyleSheet, Text }                         from 'react-native'
 import { DrawerNavigator }                          from 'react-navigation'
 import MaterialIcons                                from 'react-native-vector-icons/MaterialIcons'
 import SampleText                                   from '../../component/tabs/SampleText'
@@ -26,38 +27,42 @@ const MyNavScreen = ({ navigation, banner }) => (
 
 const InboxScreen = ({ navigation }) => (
     <ScrollView style={styles.container}>
+        <StatusBar hidden={true} backgroundColor='rgba(38,38,38,1)' />
         <SampleText>Now it's inbox screen</SampleText>
         <Button onPress={() => navigation.goBack(null)} title="Go back" />
+        <Text>Height: {StatusBar.currentHeight} pts</Text>
     </ScrollView>
 );
 InboxScreen.navigationOptions = {
     drawerLabel: 'Analyze',
     drawerIcon: ({ tintColor }) => (
         <MaterialIcons name="assessment" size={24} style={{ color: 'rgba(0,0,0,0.9)' }} />
-    ),
+    )
 };
 
 const DraftsScreen = ({ navigation }) => (
     <ScrollView style={styles.container}>
+        <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
         <SampleText>Now it's draft screen</SampleText>
         <Button onPress={() => navigation.goBack(null)} title="Go back" />
+        <Text>Height: {StatusBar.currentHeight} pts</Text>
     </ScrollView>
 );
 DraftsScreen.navigationOptions = {
     drawerLabel: 'Setting',
     drawerIcon: ({ tintColor }) => (
         <MaterialIcons name="settings" size={24} style={{ color: 'rgba(0,0,0,0.9)' }} />
-    ),
+    )
 };
 
 const MainApp = DrawerNavigator(
     {
-        Inbox: {
+        Analyze: {
             path: '/',
             screen: InboxScreen,
         },
-        Drafts: {
-            path: '/sent',
+        Setting: {
+            path: '/setting',
             screen: DraftsScreen,
         },
         Dialog: {
@@ -66,8 +71,7 @@ const MainApp = DrawerNavigator(
         }
     },
     {
-        //initialRouteName: 'Drafts',
-        initialRouteName: 'Inbox',
+        initialRouteName: 'Analyze',
         contentOptions: {
             activeTintColor: '#b8b8b8',
             //inactiveBackgroundColor: '#1f1f1f',
@@ -81,7 +85,7 @@ const MainApp = DrawerNavigator(
 
 const styles = StyleSheet.create({
     container: {
-        marginTop: Platform.OS === 'ios' ? 20 : 0,
+        marginTop: Platform.OS === 'ios' ? 0 : 0,
     },
 });
 
