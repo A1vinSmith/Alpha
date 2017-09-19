@@ -1,18 +1,28 @@
-import React                        from 'react'
-import { View, StyleSheet, Text }   from 'react-native'
+import React            from 'react'
+import { connect }      from 'react-redux'
+import { setUserName }  from '../../action/login'
+import {
+    StyleSheet, Text,
+    TouchableHighlight} from 'react-native'
 
-const OperateBtn = ({ message }) => (
-    <View style={styles.container}>
+
+const OperateBtn = ({ message, dispatch }) => (
+    <TouchableHighlight
+        style={styles.container} underlayColor={'black'}
+        onPress={() => dispatch(setUserName(message))}>
         <Text style={styles.text}>
             {message}
         </Text>
-    </View>
+    </TouchableHighlight>
 );
+
+const mapDispatchToProps = dispatch => ({
+    dispatch: dispatch
+});
 
 const styles = StyleSheet.create({
     container: {
-        paddingTop: 20,
-        //marginTop: Platform.OS === 'ios' ? 0 : 0,
+        paddingTop: 20
     },
     btn: {
         color: 'blue',
@@ -26,4 +36,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default OperateBtn
+export default connect(mapDispatchToProps)(OperateBtn);
