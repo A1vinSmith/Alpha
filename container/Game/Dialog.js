@@ -3,8 +3,8 @@ import { connect }              from "react-redux";
 import PropTypes                from 'prop-types'
 import { bindActionCreators }   from "redux";
 import {
-    View,
-    Text,
+    View, ScrollView,
+    Text, Button,
     StyleSheet }                from "react-native";
 import MaterialIcons            from 'react-native-vector-icons/MaterialIcons'
 import * as testActions         from "../../action/test";
@@ -37,7 +37,7 @@ class Dialog extends Component {
 
     render() {
         const state = this.state;
-        const { userInfo } = this.props;
+        const { userInfo, navigation } = this.props;
         if (state.loading) {
             return (
                 <View style={styles.container}>
@@ -47,9 +47,11 @@ class Dialog extends Component {
         }
 
         return (
-            <View style={styles.container}>
+            <ScrollView style={styles.container}>
+                <Button onPress={() => navigation.goBack(null)} title="Go back" />
                 <Text>Fetch Done{userInfo.user_name}</Text>
-            </View>
+            </ScrollView>
+
         );
     }
 }
