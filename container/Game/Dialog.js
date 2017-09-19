@@ -7,6 +7,7 @@ import {
     Text, Button, StatusBar,
     StyleSheet }                from "react-native"
 import * as testActions         from "../../action/test"
+import OperateBtn               from "../../component/operation/OperateBtn"
 
 @connect(
     state => ({
@@ -34,6 +35,7 @@ class Dialog extends Component {
     render() {
         const state = this.state;
         const { userInfo, navigation } = this.props;
+        const testMessages = [{id: 0, act: 'listen0'}, {id: 1, act: 'say1'}, {id: 2, act: 'read2'}, {id: 3, act: 'write3'}];
         if (state.loading) {
             return (
                 <View style={styles.container}>
@@ -47,6 +49,9 @@ class Dialog extends Component {
                 <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
                 <Button onPress={() => navigation.goBack(null)} title="Go back" />
                 <Text>Fetch Done{userInfo.user_name}</Text>
+                {testMessages.map((testMessage, i) => {
+                    return (<OperateBtn key={testMessage.id || i} message={testMessage.act} />)
+                })}
             </ScrollView>
 
         );
