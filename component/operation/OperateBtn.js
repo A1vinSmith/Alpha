@@ -10,7 +10,8 @@ const OperateBtn = ({ message, dispatch }) => (
     <TouchableHighlight
         style={styles.container} underlayColor={'black'}
         onPress={() => dispatch(setUserName(message))}>
-        <Text style={styles.text}>
+        <Text
+            style={styles.text}>
             {message}
         </Text>
     </TouchableHighlight>
@@ -22,16 +23,13 @@ const mapDispatchToProps = dispatch => ({
 
 const styles = StyleSheet.create({
     container: {
-        paddingTop: 20
-    },
-    btn: {
-        color: 'blue',
-        backgroundColor: 'blue'
+        paddingTop: 10
     },
     text: {
-        color: 'yellow', textAlign: 'center',
+        color: 'yellow', textAlign: 'center', textAlignVertical:'center',
         fontSize: 15,
-        width: 150, height: 70, lineHeight: 62,
+        width: 150, height: 50, lineHeight: 20,
+        paddingLeft: 5, paddingRight: 5,
         backgroundColor: 'blue',
     }
 });

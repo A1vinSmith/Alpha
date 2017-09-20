@@ -35,7 +35,7 @@ class Dialog extends Component {
     render() {
         const state = this.state;
         const { userInfo, navigation } = this.props;
-        const testMessages = [{id: 0, act: 'listen0'}, {id: 1, act: 'say1'}, {id: 2, act: 'read2'}, {id: 3, act: 'write3'}];
+        const testMessages = [{id: 0, act: 'investigate space transfer station'}, {id: 1, act: '调查空间转移站'}, {id: 2, act: '等待结果，从长计议'}, {id: 3, act: 'Waiting for results, temporary'}];
         if (state.loading) {
             return (
                 <View style={styles.container}>
@@ -49,9 +49,11 @@ class Dialog extends Component {
                 <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
                 <Button onPress={() => navigation.goBack(null)} title="Go back" />
                 <Text>Fetch Done{userInfo.user_name}</Text>
+                <View style={styles.opt}>
                 {testMessages.map((testMessage, i) => {
                     return (<OperateBtn key={testMessage.id || i} message={testMessage.act} />)
                 })}
+                </View>
             </ScrollView>
 
         );
@@ -61,7 +63,13 @@ class Dialog extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'black'
+        backgroundColor: 'black',
+    },
+    opt: {
+        flexDirection: "row",
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        flexWrap: "wrap",
     }
 });
 
