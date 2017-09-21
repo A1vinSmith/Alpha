@@ -48,7 +48,7 @@ class Dialog extends Component {
             <ScrollView style={styles.container}>
                 <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
                 <Button onPress={() => navigation.goBack(null)} title="Go back" />
-                <Text>Fetch Done{userInfo.user_name}</Text>
+                <Text style={styles.text}>Fetch Done{userInfo.user_name}</Text>
                 <View style={styles.opt}>
                 {testMessages.map((testMessage, i) => {
                     return (<OperateBtn key={testMessage.id || i} message={testMessage.act} />)
@@ -64,6 +64,9 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'black',
+    },
+    text: {
+        color: '#ffffff'
     },
     opt: {
         flexDirection: "row",

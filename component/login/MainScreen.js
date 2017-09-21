@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#0a0809',
+        backgroundColor: 'rgba(9,7,8,1)',
     },
 });
 
