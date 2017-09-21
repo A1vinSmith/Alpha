@@ -1,0 +1,68 @@
+{
+  "chapter": "ai-infection-01",
+  "data": [
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "waiting": true,
+      "operate": [
+        "1认识--*索引值*-- 来驱动下一个dialog",
+        "2不认识",
+        "3沉默"
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "waiting": true,
+      "operate": [
+        "react-native-scripts1",
+        "react-native-scripts2",
+        "react-native-scripts3",
+        "react-native-scripts4"
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "waiting": true,
+      "operate": [
+        "react-native-scripts1",
+        "react-native-scripts2",
+        "react-native-scripts3",
+        "react-native-scripts4"
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "waiting": true,
+      "operate": [
+        "react-native-scripts1",
+        "react-native-scripts2",
+        "react-native-scripts3",
+        "react-native-scripts4"
+      ]
+    }
+  ]
+}
