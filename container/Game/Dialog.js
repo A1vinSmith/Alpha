@@ -35,7 +35,7 @@ class Dialog extends Component {
     render() {
         const state = this.state;
         const { userInfo, navigation } = this.props;
-        const testMessages = [{id: 0, act: 'investigate space transfer station'}, {id: 1, act: '调查空间转移站'}, {id: 2, act: '等待结果，从长计议'}, {id: 3, act: 'Waiting for results, temporary'}];
+        const testMessages = [{id: 0, act: 'investigate space transfer station connect'}, {id: 1, act: '调查空间转移站,调查空间转移站观察'}, {id: 2, act: '等待结果，从长计议,调查时间表观察'}, {id: 3, act: 'Waiting for results, connect temporary'}];
         if (state.loading) {
             return (
                 <View style={styles.container}>
