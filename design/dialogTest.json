@@ -9,11 +9,11 @@
       ],
       "name": "开始之初",
       "index:": 0,
-      "waiting": true,
+      "display": true,
       "operate": [
-        "1认识--*索引值*-- 来驱动下一个dialog",
-        "2不认识",
-        "3沉默"
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
       ]
     },
     {
@@ -24,12 +24,12 @@
       ],
       "name": "开始之初-认识",
       "index:": 1,
-      "waiting": true,
+      "display": false,
       "operate": [
-        "react-native-scripts1",
-        "react-native-scripts2",
-        "react-native-scripts3",
-        "react-native-scripts4"
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
       ]
     },
     {
@@ -40,12 +40,12 @@
       ],
       "name": "开始之初-不认识",
       "index:": 2,
-      "waiting": true,
+      "display": false,
       "operate": [
-        "react-native-scripts1",
-        "react-native-scripts2",
-        "react-native-scripts3",
-        "react-native-scripts4"
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
       ]
     },
     {
@@ -56,12 +56,12 @@
       ],
       "name": "开始之初-沉默",
       "index:": 3,
-      "waiting": true,
+      "display": false,
       "operate": [
-        "react-native-scripts1",
-        "react-native-scripts2",
-        "react-native-scripts3",
-        "react-native-scripts4"
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
       ]
     }
   ]
