@@ -42,11 +42,13 @@ class Dialog extends Component {
         const testAvailableArray = [0,1,3]; // May need ENUM
         for (let i in testAvailableArray) {
             pages.push(
-                <View key={i} style={styles.opt}>
+                <View key={i} style={styles.dialog} >
                     <Text style={styles.text}>{playList[i].dialog}</Text>
+                    <View  style={styles.opt}>
                     {playList[i].operate.map((testMessage, i) => {
                         return (<OperateBtn key={testMessage.id || i} message={testMessage.act} />)
                     })}
+                    </View>
                 </View>
             );
         }
@@ -77,9 +79,7 @@ class Dialog extends Component {
                 <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
                 <Button onPress={() => navigation.goBack(null)} title="Go back" />
                 <Text style={styles.text}>Fetch Done{userInfo.user_name}</Text>
-                <View>
-                    {pages}
-                </View>
+                {pages}
             </ScrollView>
 
         );
@@ -88,11 +88,13 @@ class Dialog extends Component {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
         backgroundColor: 'black',
     },
+    dialog: {
+        marginTop: 7,
+    },
     text: {
-        color: '#ffffff'
+        color: '#ffffff',
     },
     opt: {
         flexDirection: "row",
