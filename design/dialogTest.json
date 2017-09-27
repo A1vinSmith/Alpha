@@ -63,6 +63,6495 @@
         {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
         {"id": 3, "act": "Waiting for results, connect temporary"}
       ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "嗨你好",
+        "你是谁",
+        "你不认识我了吗"
+      ],
+      "name": "开始之初",
+      "index:": 0,
+      "display": true,
+      "operate": [
+        {"id": 0, "act": "认识"},
+        {"id": 1, "act": "不认识"},
+        {"id": 2, "act": "沉默"}
+      ]
+    },
+    {
+      "dialog": [
+        "原来你是",
+        "是啊",
+        "幸会幸会"
+      ],
+      "name": "开始之初-认识",
+      "index:": 1,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "请问你是",
+        "张三",
+        "哦哦"
+      ],
+      "name": "开始之初-不认识",
+      "index:": 2,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
+    },
+    {
+      "dialog": [
+        "...",
+        "我是张三啊",
+        "哦哦"
+      ],
+      "name": "开始之初-沉默",
+      "index:": 3,
+      "display": false,
+      "operate": [
+        {"id": 0, "act": "investigate space transfer station connect"},
+        {"id": 1, "act": "调查空间转移站,调查空间转移站观察"},
+        {"id": 2, "act": "等待结果，从长计议,调查时间表观察"},
+        {"id": 3, "act": "Waiting for results, connect temporary"}
+      ]
     }
   ]
 }

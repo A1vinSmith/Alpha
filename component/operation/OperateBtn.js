@@ -1,15 +1,19 @@
 import React            from 'react'
 import { connect }      from 'react-redux'
 import { setUserName }  from '../../action/login'
+import { addPlotIndex } from '../../action/operate'
 import {
     StyleSheet, Text,
     TouchableHighlight} from 'react-native'
 
 
-const OperateBtn = ({ message, dispatch }) => (
+const OperateBtn = ({ message, dispatch, key }) => (
     <TouchableHighlight
         style={styles.container} underlayColor={'black'}
-        onPress={() => dispatch(setUserName(message))}>
+        onPress={() => {
+            dispatch(setUserName(message));
+            dispatch(addPlotIndex(key))
+        }}>
         <Text
             style={styles.text}>
             {message}

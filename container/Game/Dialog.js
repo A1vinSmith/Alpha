@@ -13,7 +13,8 @@ const DialogData = require('../../design/dialogTest.json');
 
 @connect(
     state => ({
-        userInfo: state.userInfo
+        userInfo: state.userInfo,
+        testAvailableArray: state.plot
     }),
     dispatch => bindActionCreators(testActions, dispatch)
 )
@@ -36,10 +37,10 @@ class Dialog extends Component {
 
     render() {
         const state = this.state;
-        const { userInfo, navigation } = this.props;
+        const { userInfo, navigation, testAvailableArray } = this.props;
 
         let pages =[]; const playList = DialogData.data;
-        const testAvailableArray = [0,1,3]; // May need ENUM
+        //const testAvailableArray = [0,1,2,3,4,5,6,7,8,9,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]; // May need ENUM
         for (let i in testAvailableArray) {
             pages.push(
                 <View key={i} style={styles.dialog} >
