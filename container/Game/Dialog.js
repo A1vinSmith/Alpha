@@ -28,7 +28,10 @@ class Dialog extends Component {
         this.setState({
             loading: true
         });
-        //await console.log(this.props.userInfo.user_name);
+
+        // connect map state to props
+        // bindActionCreator === mapDispatchToProps
+        // ALL BIND THESE TO this.props
         await this.props.getCustomData();
         await this.setState({
             loading: false
