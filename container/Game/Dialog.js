@@ -35,6 +35,10 @@ class Dialog extends Component {
         });
     }
 
+    componentDidUpdate() {
+        setTimeout(() => this.scrollView.scrollToEnd({animated: true}), 0);
+    }
+
     render() {
         const { userInfo, navigation, testAvailableArray } = this.props;
 
@@ -68,7 +72,7 @@ class Dialog extends Component {
         */
 
         return (
-            <ScrollView style={styles.container}>
+            <ScrollView style={styles.container} ref={(scrollView) => { this.scrollView = scrollView }}>
                 <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
                 <Button onPress={() => navigation.goBack(null)} title="Go back" />
                 <Text style={styles.text}>Fetch Done{userInfo.user_name}</Text>

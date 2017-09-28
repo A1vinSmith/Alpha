@@ -12,7 +12,8 @@ const OperateBtn = ({ message, dispatch, key }) => (
         style={styles.container} underlayColor={'black'}
         onPress={() => {
             dispatch(setUserName(message));
-            dispatch(addPlotIndex(key))
+            dispatch(addPlotIndex(key));
+            //scrollView.scrollToEnd({animated: true});
         }}>
         <Text
             style={styles.text}>
