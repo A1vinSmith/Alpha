@@ -36,7 +36,6 @@ class Dialog extends Component {
     }
 
     render() {
-        const state = this.state;
         const { userInfo, navigation, testAvailableArray } = this.props;
 
         let pages =[]; const playList = DialogData.data;
@@ -67,13 +66,6 @@ class Dialog extends Component {
             }
         }
         */
-        if (state.loading) {
-            return (
-                <View style={styles.container}>
-                    <Text>Loading{userInfo.user_name}</Text>
-                </View>
-            );
-        }
 
         return (
             <ScrollView style={styles.container}>
