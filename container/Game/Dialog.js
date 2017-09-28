@@ -33,12 +33,13 @@ class Dialog extends Component {
         await this.setState({
             loading: false
         });
+        setTimeout(() => this.scrollView.scrollToEnd({animated: false}), 0);
     }
 
     componentDidUpdate() {
         setTimeout(() => this.scrollView.scrollToEnd({animated: true}), 0);
     }
-
+    
     render() {
         const { userInfo, navigation, testAvailableArray } = this.props;
 
