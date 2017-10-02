@@ -7,7 +7,8 @@ import {
     Text, Button, StatusBar,
     StyleSheet }                from "react-native"
 import * as testActions         from "../../action/test"
-import OperateBtn               from "../../component/operation/OperateBtn"
+import OperateBtn               from "../../component/dialog/OperateBtn"
+import DialogComponent          from "../../component/dialog/DialogComponent"
 
 const DialogData = require('../../design/dialogTest.json');
 
@@ -48,6 +49,7 @@ class Dialog extends Component {
 
         let pages =[]; const playList = DialogData.data;
         //const testAvailableArray = [0,1,2,3,4,5,6,7,8,9,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]; // May need ENUM
+        /*
         for (let i in testAvailableArray) {
             pages.push(
                 <View key={i} style={styles.dialog} >
@@ -56,6 +58,23 @@ class Dialog extends Component {
                     {playList[i].operate.map((testMessage, i) => {
                         return (<OperateBtn key={testMessage.id || i} message={testMessage.act} />)
                     })}
+                    </View>
+                </View>
+            );
+        }
+        */
+        for (let i = 0; i < testAvailableArray.length; i++) {
+            let j = testAvailableArray[i];
+            //console.log(j);
+            pages.push(
+                <View key={j} style={styles.dialog} >
+                    {playList[j].dialog.map((piece, i) => {
+                        return (<DialogComponent key={piece.sentence || i} dialog={piece} />)
+                    })}
+                    <View style={styles.opt}>
+                        {playList[j].operate.map((piece, i) => {
+                            return (<OperateBtn key={piece.index || i} operate={piece} />)
+                        })}
                     </View>
                 </View>
             );

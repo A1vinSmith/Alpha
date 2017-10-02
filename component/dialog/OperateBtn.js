@@ -7,17 +7,16 @@ import {
     TouchableHighlight} from 'react-native'
 
 
-const OperateBtn = ({ message, dispatch, key }) => (
+const OperateBtn = ({ operate, dispatch }) => (
     <TouchableHighlight
         style={styles.container} underlayColor={'black'}
         onPress={() => {
-            dispatch(setUserName(message));
-            dispatch(addPlotIndex(key));
-            //scrollView.scrollToEnd({animated: true});
+            dispatch(setUserName(operate.action));
+            dispatch(addPlotIndex(operate.index));
         }}>
         <Text
             style={styles.text}>
-            {message}
+            {operate.action}
         </Text>
     </TouchableHighlight>
 );
