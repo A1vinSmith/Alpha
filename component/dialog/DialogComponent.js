@@ -1,9 +1,29 @@
-import React            from 'react'
+import React, { Component } from 'react'
+import PropTypes            from 'prop-types'
 import {
     View,
-    StyleSheet, Text }  from 'react-native'
+    StyleSheet, Text }      from 'react-native'
 
+export default class DialogComponent extends Component {
+    static propTypes = {
+        dialog: PropTypes.object.isRequired
+    };
 
+    render() {
+        const { dialog } = this.props;
+        return (
+            <View style={styles.container}>
+                <Text style={styles.text}>
+                    {dialog.character}
+                </Text>
+                {dialog.lines.map((line,i)=>{
+                    return (<Text key={i} style={styles.text}> {line} </Text>)
+                })}
+            </View>
+        )
+    }
+}
+/*
 const DialogComponent = ({ dialog }) => (
     <View style={styles.container}>
         <Text style={styles.text}>
@@ -14,7 +34,7 @@ const DialogComponent = ({ dialog }) => (
         })}
     </View>
 );
-
+*/
 const styles = StyleSheet.create({
     container: {
         paddingTop: 10
@@ -30,4 +50,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default DialogComponent
+//export default DialogComponent
