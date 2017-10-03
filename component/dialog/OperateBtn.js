@@ -1,15 +1,48 @@
-import React            from 'react'
-import { connect }      from 'react-redux'
-import { setUserName }  from '../../action/login'
+import React, { Component } from 'react'
+import PropTypes            from 'prop-types'
+//import { connect }          from 'react-redux'
 import {
     StyleSheet, Text,
-    TouchableHighlight} from 'react-native'
+    TouchableHighlight }    from 'react-native'
+/*
 import {
     saveCurrentPoint,
     loadLastPoint,
-    addPlotIndex }      from '../../action/operate'
+    addPlotIndex }          from '../../action/operate'
+    */
 
+export default class OperateBtn extends Component {
+    static propTypes = {
+        actions: PropTypes.object.isRequired,
+        operate: PropTypes.object.isRequired,
+        lastPlotIndex: PropTypes.number.isRequired,
+        lastDialogIndex: PropTypes.number.isRequired
+    };
 
+    render() {
+        const { actions, operate, lastPlotIndex, lastDialogIndex } = this.props;
+        return (
+            <TouchableHighlight
+                style={styles.container} underlayColor={'black'}
+                onPress={() => {
+                    if (lastPlotIndex === lastDialogIndex) {
+                        if (operate.index !== 9e15) {
+                            actions.addPlotIndex(operate.index);
+                            if (operate.save) { actions.saveCurrentPoint(operate.index) }
+                        } else {
+                            actions.loadLastPoint();
+                        }
+                    }
+                }}>
+                <Text
+                    style={styles.text}>
+                    {operate.action}
+                </Text>
+            </TouchableHighlight>
+        )
+    }
+}
+/*
 const OperateBtn = ({ operate, dispatch, lastPlotIndex, lastDialogIndex }) => (
     <TouchableHighlight
         style={styles.container} underlayColor={'black'}
@@ -31,11 +64,12 @@ const OperateBtn = ({ operate, dispatch, lastPlotIndex, lastDialogIndex }) => (
         </Text>
     </TouchableHighlight>
 );
-
+*/
+/*
 const mapDispatchToProps = dispatch => ({
     dispatch: dispatch
 });
-
+*/
 const styles = StyleSheet.create({
     container: {
         paddingTop: 10
@@ -51,4 +85,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default connect(mapDispatchToProps)(OperateBtn);
+//export default connect(mapDispatchToProps)(OperateBtn);

@@ -6,7 +6,8 @@ import {
     View, ScrollView,
     Text, Button, StatusBar,
     StyleSheet }                from "react-native"
-import * as testActions         from "../../action/test"
+//import * as testActions         from "../../action/test"
+import * as operateActions      from "../../action/operate"
 import OperateBtn               from "../../component/dialog/OperateBtn"
 import DialogComponent          from "../../component/dialog/DialogComponent"
 
@@ -17,7 +18,10 @@ const DialogData = require('../../design/dialogTest.json');
         userInfo: state.userInfo,
         testAvailableArray: state.plot
     }),
-    dispatch => bindActionCreators(testActions, dispatch)
+    //dispatch => bindActionCreators(testActions, dispatch),
+    dispatch => ({
+        actions : bindActionCreators(operateActions, dispatch)
+    })
 )
 class Dialog extends Component {
 
@@ -30,10 +34,6 @@ class Dialog extends Component {
             loading: true
         });
 
-        // connect map state to props
-        // bindActionCreator === mapDispatchToProps
-        // ALL BIND THESE TO this.props
-        await this.props.getCustomData();
         await this.setState({
             loading: false
         });
@@ -45,7 +45,7 @@ class Dialog extends Component {
     }
     
     render() {
-        const { userInfo, navigation, testAvailableArray } = this.props;
+        const { userInfo, navigation, testAvailableArray, actions } = this.props;
 
         let pages =[];
         const playList = DialogData.data;
@@ -61,7 +61,7 @@ class Dialog extends Component {
                     })}
                     <View style={styles.opt}>
                         {playList[j].operate.map((piece, i) => {
-                            return (<OperateBtn key={piece.index || i} operate={piece} lastPlotIndex={last} lastDialogIndex={j} />)
+                            return (<OperateBtn key={piece.index || i} actions={actions} operate={piece} lastPlotIndex={last} lastDialogIndex={j} />)
                         })}
                     </View>
                 </View>
