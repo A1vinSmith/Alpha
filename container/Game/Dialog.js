@@ -47,25 +47,13 @@ class Dialog extends Component {
     render() {
         const { userInfo, navigation, testAvailableArray } = this.props;
 
-        let pages =[]; const playList = DialogData.data;
-        //const testAvailableArray = [0,1,2,3,4,5,6,7,8,9,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]; // May need ENUM
-        /*
-        for (let i in testAvailableArray) {
-            pages.push(
-                <View key={i} style={styles.dialog} >
-                    <Text style={styles.text}>{playList[i].dialog}</Text>
-                    <View  style={styles.opt}>
-                    {playList[i].operate.map((testMessage, i) => {
-                        return (<OperateBtn key={testMessage.id || i} message={testMessage.act} />)
-                    })}
-                    </View>
-                </View>
-            );
-        }
-        */
-        for (let i = 0; i < testAvailableArray.plotIndex.length; i++) {
+        let pages =[];
+        const playList = DialogData.data;
+        const listLength = testAvailableArray.plotIndex.length;
+        const last = testAvailableArray.plotIndex[listLength - 1];
+
+        for (let i = 0; i < listLength; i++) {
             let j = testAvailableArray.plotIndex[i];
-            //console.log(j);
             pages.push(
                 <View key={j} style={styles.dialog} >
                     {playList[j].dialog.map((piece, i) => {
@@ -73,26 +61,12 @@ class Dialog extends Component {
                     })}
                     <View style={styles.opt}>
                         {playList[j].operate.map((piece, i) => {
-                            return (<OperateBtn key={piece.index || i} operate={piece} />)
+                            return (<OperateBtn key={piece.index || i} operate={piece} lastPlotIndex={last} lastDialogIndex={j} />)
                         })}
                     </View>
                 </View>
             );
         }
-        /*
-        for (let i = 0; i < playList.length; i++) {
-            if (playList[i].display) {
-                pages.push(
-                    <View key={i} style={styles.opt}>
-                        <Text>{playList[i].dialog}</Text>
-                        {playList[i].operate.map((testMessage, i) => {
-                            return (<OperateBtn key={testMessage.id || i} message={testMessage.act} />)
-                        })}
-                    </View>
-                );
-            }
-        }
-        */
 
         return (
             <ScrollView style={styles.container} ref={(scrollView) => { this.scrollView = scrollView }}>

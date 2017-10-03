@@ -10,17 +10,20 @@ import {
     addPlotIndex }      from '../../action/operate'
 
 
-const OperateBtn = ({ operate, dispatch }) => (
+const OperateBtn = ({ operate, dispatch, lastPlotIndex, lastDialogIndex }) => (
     <TouchableHighlight
         style={styles.container} underlayColor={'black'}
         onPress={() => {
-            dispatch(setUserName(operate.action));
-            if (operate.index !== 9e15) {
-                dispatch(addPlotIndex(operate.index));
-                if (operate.save) { dispatch(saveCurrentPoint(operate.index)) }
-            } else {
-                dispatch(loadLastPoint());
+            if (lastPlotIndex === lastDialogIndex) {
+                dispatch(setUserName(operate.action));
+                if (operate.index !== 9e15) {
+                    dispatch(addPlotIndex(operate.index));
+                    if (operate.save) { dispatch(saveCurrentPoint(operate.index)) }
+                } else {
+                    dispatch(loadLastPoint());
+                }
             }
+
         }}>
         <Text
             style={styles.text}>
