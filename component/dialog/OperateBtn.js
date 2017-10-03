@@ -1,15 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes            from 'prop-types'
-//import { connect }          from 'react-redux'
 import {
     StyleSheet, Text,
     TouchableHighlight }    from 'react-native'
-/*
-import {
-    saveCurrentPoint,
-    loadLastPoint,
-    addPlotIndex }          from '../../action/operate'
-    */
 
 export default class OperateBtn extends Component {
     static propTypes = {
@@ -42,34 +35,7 @@ export default class OperateBtn extends Component {
         )
     }
 }
-/*
-const OperateBtn = ({ operate, dispatch, lastPlotIndex, lastDialogIndex }) => (
-    <TouchableHighlight
-        style={styles.container} underlayColor={'black'}
-        onPress={() => {
-            if (lastPlotIndex === lastDialogIndex) {
-                dispatch(setUserName(operate.action));
-                if (operate.index !== 9e15) {
-                    dispatch(addPlotIndex(operate.index));
-                    if (operate.save) { dispatch(saveCurrentPoint(operate.index)) }
-                } else {
-                    dispatch(loadLastPoint());
-                }
-            }
 
-        }}>
-        <Text
-            style={styles.text}>
-            {operate.action}
-        </Text>
-    </TouchableHighlight>
-);
-*/
-/*
-const mapDispatchToProps = dispatch => ({
-    dispatch: dispatch
-});
-*/
 const styles = StyleSheet.create({
     container: {
         paddingTop: 10
@@ -84,5 +50,3 @@ const styles = StyleSheet.create({
         backgroundColor: 'blue',
     }
 });
-
-//export default connect(mapDispatchToProps)(OperateBtn);

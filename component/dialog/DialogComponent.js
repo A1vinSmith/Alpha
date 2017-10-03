@@ -23,18 +23,7 @@ export default class DialogComponent extends Component {
         )
     }
 }
-/*
-const DialogComponent = ({ dialog }) => (
-    <View style={styles.container}>
-        <Text style={styles.text}>
-            {dialog.character}
-        </Text>
-        {dialog.lines.map((line,i)=>{
-            return (<Text key={i} style={styles.text}> {line} </Text>)
-        })}
-    </View>
-);
-*/
+
 const styles = StyleSheet.create({
     container: {
         paddingTop: 10
@@ -49,5 +38,3 @@ const styles = StyleSheet.create({
         backgroundColor: 'blue',
     }
 });
-
-//export default DialogComponent
