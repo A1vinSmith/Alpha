@@ -6,8 +6,9 @@ import {
     View, ScrollView,
     Text, Button, StatusBar,
     StyleSheet }                from "react-native"
-//import * as testActions         from "../../action/test"
+
 import * as operateActions      from "../../action/operate"
+
 import OperateBtn               from "../../component/dialog/OperateBtn"
 import DialogComponent          from "../../component/dialog/DialogComponent"
 
@@ -18,7 +19,6 @@ const DialogData = require('../../design/dialogTest.json');
         userInfo: state.userInfo,
         testAvailableArray: state.plot
     }),
-    //dispatch => bindActionCreators(testActions, dispatch),
     dispatch => ({
         actions : bindActionCreators(operateActions, dispatch)
     })
@@ -26,17 +26,11 @@ const DialogData = require('../../design/dialogTest.json');
 class Dialog extends Component {
 
     static propTypes = {
-        userInfo: PropTypes.object.isRequired
+        userInfo: PropTypes.object.isRequired,
+        testAvailableArray: PropTypes.object.isRequired
     };
 
     async componentWillMount() {
-        this.setState({
-            loading: true
-        });
-
-        await this.setState({
-            loading: false
-        });
         setTimeout(() => this.scrollView.scrollToEnd({animated: false}), 0);
     }
 
