@@ -1,10 +1,13 @@
 import React            from 'react'
 import { connect }      from 'react-redux'
 import { setUserName }  from '../../action/login'
-import { addPlotIndex } from '../../action/operate'
 import {
     StyleSheet, Text,
     TouchableHighlight} from 'react-native'
+import {
+    saveCurrentPoint,
+    loadLastPoint,
+    addPlotIndex }      from '../../action/operate'
 
 
 const OperateBtn = ({ operate, dispatch }) => (
@@ -12,7 +15,12 @@ const OperateBtn = ({ operate, dispatch }) => (
         style={styles.container} underlayColor={'black'}
         onPress={() => {
             dispatch(setUserName(operate.action));
-            dispatch(addPlotIndex(operate.index));
+            if (operate.index !== 9e15) {
+                dispatch(addPlotIndex(operate.index));
+                if (operate.save) { dispatch(saveCurrentPoint(operate.index)) }
+            } else {
+                dispatch(loadLastPoint());
+            }
         }}>
         <Text
             style={styles.text}>

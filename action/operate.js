@@ -6,3 +6,15 @@ export const addPlotIndex = (index) => {
         plot_index: index
     }
 };
+
+export const saveCurrentPoint = () => {
+    return {
+        type: types.SAVE_CURRENT_POINT
+    }
+};
+
+export const loadLastPoint = () => {
+    return {
+        type: types.LOAD_LAST_POINT
+    }
+};

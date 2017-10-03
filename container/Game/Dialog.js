@@ -63,8 +63,8 @@ class Dialog extends Component {
             );
         }
         */
-        for (let i = 0; i < testAvailableArray.length; i++) {
-            let j = testAvailableArray[i];
+        for (let i = 0; i < testAvailableArray.plotIndex.length; i++) {
+            let j = testAvailableArray.plotIndex[i];
             //console.log(j);
             pages.push(
                 <View key={j} style={styles.dialog} >
