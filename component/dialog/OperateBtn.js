@@ -49,10 +49,10 @@ const styles = StyleSheet.create({
     text: {
         // 汉字 16个字符以内
         // 英文 36个字符以内
-        color: 'yellow', textAlign: 'center', textAlignVertical:'center',
+        color: 'rgba(160,176,185,1.0)', textAlign: 'left', textAlignVertical:'center',
         fontSize: 14,
         width: 150, height: 50, lineHeight: 20,
         paddingLeft: 5, paddingRight: 5, paddingTop: 2,
-        backgroundColor: 'blue',
+        backgroundColor: 'rgba(23,29,33,1.0)',
     }
 });
