@@ -42,6 +42,6 @@ const styles = StyleSheet.create({
         borderRadius: 11, borderWidth: 2.5, borderColor: 'rgba(225,172,72,0.6)',
         fontSize: 16, alignSelf: 'flex-end',
         marginBottom: 10,
-        paddingTop: 3, paddingBottom: 2, paddingRight: 3, paddingLeft: 3,
+        paddingTop: 3, paddingBottom: 1, paddingRight: 3, paddingLeft: 3,
     }
 });

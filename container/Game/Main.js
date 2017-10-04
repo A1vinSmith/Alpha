@@ -1,11 +1,12 @@
 /**
  * @flow
  */
-import React                                        from 'react'
-import { Button, Platform, ScrollView, StatusBar,
-         StyleSheet, Text }                         from 'react-native'
-import { DrawerNavigator }                          from 'react-navigation'
-import MaterialIcons                                from 'react-native-vector-icons/MaterialIcons'
+import React                        from 'react'
+import {
+    Platform, StyleSheet,
+    Text, ScrollView, StatusBar }   from 'react-native'
+import { DrawerNavigator }          from 'react-navigation'
+import MaterialIcons                from 'react-native-vector-icons/MaterialIcons'
 
 import DialogScreen from './Dialog'
 

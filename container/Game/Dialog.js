@@ -3,9 +3,10 @@ import { connect }              from "react-redux"
 import PropTypes                from 'prop-types'
 import { bindActionCreators }   from "redux"
 import {
-    View, ScrollView,
-    Text, Button, StatusBar,
+    View, TouchableHighlight,
+    ScrollView, StatusBar,
     StyleSheet }                from "react-native"
+import FontAwesome              from 'react-native-vector-icons/FontAwesome'
 
 import * as operateActions      from "../../action/operate"
 
@@ -63,23 +64,31 @@ class Dialog extends Component {
         }
 
         return (
-            <ScrollView style={styles.container} ref={(scrollView) => { this.scrollView = scrollView }}>
-                <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
-                <Button onPress={() => navigation.goBack(null)} title="Go back" />
-                <Text style={styles.text}>Fetch Done{userInfo.user_name}</Text>
-                {pages}
-            </ScrollView>
+            <View style={styles.container}>
+                <ScrollView ref={(scrollView) => { this.scrollView = scrollView }}>
+                    <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
+                    {pages}
+                </ScrollView>
 
+                <TouchableHighlight
+                    style={styles.iconTouch}
+                    onPress={() => navigation.navigate('DrawerOpen')}
+                >
+                    <FontAwesome name="eercast" size={24} color={'rgba(255,255,255,0.8)'} />
+                </TouchableHighlight>
+            </View>
         );
     }
 }
 
 const styles = StyleSheet.create({
     container: {
+        flex: 1,
         backgroundColor: 'black',
     },
     dialog: {
         marginTop: 7,
+        flex: 1,
     },
     text: {
         color: '#ffffff',
@@ -89,6 +98,13 @@ const styles = StyleSheet.create({
         justifyContent: 'space-around',
         alignItems: 'center',
         flexWrap: "wrap",
+    },
+    iconTouch: {
+        position: 'absolute',
+        bottom: 72.5,
+        left: 8,
+        justifyContent: 'center',
+        alignItems: 'center'
     }
 });
 
