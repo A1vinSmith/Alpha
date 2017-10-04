@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
         fontSize: 14, alignSelf: 'flex-end',
         marginBottom: 10,
         backgroundColor: 'rgba(28,38,43,1.0)',
-        maxWidth: 300,
+        maxWidth: 280,
     },
     character: {
         color: 'rgba(157,157,0,0.9)', textAlign: 'center', textAlignVertical:'center',
