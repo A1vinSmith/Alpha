@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import PropTypes            from 'prop-types'
 import {
     StyleSheet, Text,
+    View,
     TouchableHighlight }    from 'react-native'
+import FadeInView           from '../animated/FadeInView'
 
 export default class OperateBtn extends Component {
     static propTypes = {
@@ -27,10 +29,14 @@ export default class OperateBtn extends Component {
                         }
                     }
                 }}>
-                <Text
-                    style={styles.text}>
-                    {operate.action}
-                </Text>
+                <View >
+                    <FadeInView>
+                        <Text style={styles.text}>
+                            {operate.action}
+                        </Text>
+                    </FadeInView>
+                </View>
+
             </TouchableHighlight>
         )
     }
