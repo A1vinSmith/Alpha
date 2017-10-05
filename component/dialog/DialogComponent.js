@@ -16,7 +16,7 @@ export default class DialogComponent extends Component {
 
     render() {
         const { dialog } = this.props;
-        
+
         const direction = dialog.character === 'Bernardo';
 
         return (
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     },
     character: {
         color: 'rgba(157,157,0,0.9)', textAlign: 'center', textAlignVertical:'center',
-        paddingTop: 3, paddingBottom: 1, paddingRight: 3, paddingLeft: 3,
+        paddingTop: 4, paddingBottom: 0, paddingRight: 3, paddingLeft: 3,
         borderRadius: 11, borderWidth: 2.5, borderColor: 'rgba(225,172,72,0.6)',
         fontSize: 16, //alignSelf: 'flex-start',
         marginBottom: 10,
