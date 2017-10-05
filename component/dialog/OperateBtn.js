@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import PropTypes            from 'prop-types'
 import {
     StyleSheet, Text,
-    View,
-    TouchableHighlight }    from 'react-native'
+    View, TouchableOpacity
+    }                       from 'react-native'
 import FadeInView           from '../animated/FadeInView'
 
 export default class OperateBtn extends Component {
@@ -17,8 +17,8 @@ export default class OperateBtn extends Component {
     render() {
         const { actions, operate, lastPlotIndex, lastDialogIndex } = this.props;
         return (
-            <TouchableHighlight
-                style={styles.container} underlayColor={'black'}
+            <TouchableOpacity
+                style={styles.container} activeOpacity={0.25}
                 onPress={() => {
                     if (lastPlotIndex === lastDialogIndex) {
                         if (operate.index !== 9e15) {
@@ -37,7 +37,7 @@ export default class OperateBtn extends Component {
                     </FadeInView>
                 </View>
 
-            </TouchableHighlight>
+            </TouchableOpacity>
         )
     }
 }
