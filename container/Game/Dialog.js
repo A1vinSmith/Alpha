@@ -4,6 +4,7 @@ import PropTypes                from 'prop-types'
 import { bindActionCreators }   from "redux"
 import {
     View, TouchableHighlight,
+    Image,
     ScrollView, StatusBar,
     StyleSheet }                from "react-native"
 import FontAwesome              from 'react-native-vector-icons/FontAwesome'
@@ -14,6 +15,7 @@ import OperateBtn               from "../../component/dialog/OperateBtn"
 import DialogComponent          from "../../component/dialog/DialogComponent"
 
 const DialogData = require('../../design/dialogTest.json');
+const BackgroundImg = require('./assets/Bg01.jpg');
 
 @connect(
     state => ({
@@ -64,7 +66,7 @@ class Dialog extends Component {
         }
 
         return (
-            <View style={styles.container}>
+            <Image style={styles.container} source={ BackgroundImg } >
                 <ScrollView ref={(scrollView) => { this.scrollView = scrollView }}>
                     <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
                     {pages}
@@ -76,7 +78,7 @@ class Dialog extends Component {
                 >
                     <FontAwesome name="eercast" size={24} color={'rgba(255,255,255,0.8)'} />
                 </TouchableHighlight>
-            </View>
+            </Image>
         );
     }
 }
@@ -84,7 +86,9 @@ class Dialog extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'black',
+        // remove width and height to override fixed static size
+        width: null,
+        height: null
     },
     dialog: {
         marginTop: 7,
