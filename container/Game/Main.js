@@ -79,11 +79,13 @@ const MainApp = DrawerNavigator(
     {
         initialRouteName: 'Dialog',
         contentOptions: {
-            activeTintColor: 'rgba(184,184,184,0.7)',
-            //activeBackgroundColor: 'rgba(146,146,146,0.7)',
+            activeTintColor: 'pink',
+            //activeTintColor: 'rgba(138,211,255,1)',
+            inactiveTintColor: 'rgba(184,184,184,0.5)',
+            activeBackgroundColor: 'rgba(0,0,0,0.3)',
             //inactiveBackgroundColor: '#1f1f1f',
             style: {
-                backgroundColor: 'rgba(38,38,38,1)',
+                backgroundColor: 'rgba(23,23,23,1)',
                 flex: 1 // Use this to make background covered
             }
         },
