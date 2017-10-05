@@ -13,6 +13,7 @@ import * as operateActions      from "../../action/operate"
 
 import OperateBtn               from "../../component/dialog/OperateBtn"
 import DialogComponent          from "../../component/dialog/DialogComponent"
+import ChapterComponent         from "../../component/dialog/ChapterComponent"
 
 const DialogData = require('../../design/dialogTest.json');
 const BackgroundImg = require('./assets/Bg01.jpg');
@@ -67,10 +68,12 @@ class Dialog extends Component {
 
         return (
             <Image style={styles.container} source={ BackgroundImg } >
-                <ScrollView ref={(scrollView) => { this.scrollView = scrollView }}>
+                <ScrollView style={styles.scrollView} ref={(scrollView) => { this.scrollView = scrollView }}>
                     <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
                     {pages}
                 </ScrollView>
+
+                <ChapterComponent chapter={playList[last].chapter} scene={playList[last].scene} />
 
                 <TouchableHighlight
                     style={styles.iconTouch}
@@ -89,6 +92,9 @@ const styles = StyleSheet.create({
         // remove width and height to override fixed static size
         width: null,
         height: null
+    },
+    scrollView: {
+        marginTop: 22
     },
     dialog: {
         marginTop: 7,
