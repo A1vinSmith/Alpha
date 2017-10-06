@@ -16,7 +16,10 @@ import DialogComponent          from "../../component/dialog/DialogComponent"
 import ChapterComponent         from "../../component/dialog/ChapterComponent"
 
 const DialogData = require('../../design/dialogTest.json');
-const BackgroundImg = require('./assets/Bg01.jpg');
+const BackgroundImg1 = require('./assets/Bg01.jpg');
+const BackgroundImg2 = require('./assets/Bg02.jpg');
+const BackgroundImg3 = require('./assets/Bg03.jpg');
+const BackgroundImg = [BackgroundImg1, BackgroundImg2, BackgroundImg3];
 
 @connect(
     state => ({
@@ -43,7 +46,7 @@ class Dialog extends Component {
     }
     
     render() {
-        const { userInfo, navigation, testAvailableArray, actions } = this.props;
+        const { navigation, testAvailableArray, actions } = this.props;
 
         let pages =[];
         const playList = DialogData.data;
@@ -65,9 +68,8 @@ class Dialog extends Component {
                 </View>
             );
         }
-
         return (
-            <Image style={styles.container} source={ BackgroundImg } >
+            <Image style={styles.container} source={ BackgroundImg[listLength%3] } >
                 <ScrollView style={styles.scrollView} ref={(scrollView) => { this.scrollView = scrollView }}>
                     <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
                     {pages}
