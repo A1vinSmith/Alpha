@@ -3,6 +3,7 @@ import PropTypes            from 'prop-types'
 import {
     View,
     StyleSheet, Text }      from 'react-native'
+import FontAwesome          from 'react-native-vector-icons/FontAwesome'
 
 export default class ChapterComponent extends Component {
     static propTypes = {
@@ -18,6 +19,8 @@ export default class ChapterComponent extends Component {
                     {chapter}
                 </Text>
                 <Text style={[styles.title, styles.sceneText]}>
+                    <FontAwesome name="map-marker" size={13} color={'rgba(205,205,205,1.0)'} />
+                    &nbsp;&nbsp;
                     {scene}
                 </Text>
             </View>
@@ -33,14 +36,15 @@ const styles = StyleSheet.create({
     title: {
         position: 'absolute', top: 0,
         paddingBottom: 5,
-        fontFamily: 'Cochin'
+        fontFamily: 'Cochin',
+        color: 'rgba(205,205,205,1.0)'
     },
     chapterText: {
-        color: 'rgba(92,200,255,1.0)', width: '100%',
+        width: '100%',
         fontSize: 17, paddingTop: 5, paddingLeft: 10,
     },
     sceneText: {
-        color: 'rgba(138,211,255,1.0)', right: 0,
-        fontSize: 10, paddingTop: 11, paddingRight: 10,
+        right: 0,
+        fontSize: 10, paddingTop: 14, paddingRight: 9,
     }
 });

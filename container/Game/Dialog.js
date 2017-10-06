@@ -79,7 +79,7 @@ class Dialog extends Component {
                     style={styles.iconTouch}
                     onPress={() => navigation.navigate('DrawerOpen')}
                 >
-                    <FontAwesome name="eercast" size={24} color={'rgba(138,211,255,0.9)'} />
+                    <FontAwesome name="eercast" size={24} color={'rgba(205,205,205,0.9)'} />
                 </TouchableHighlight>
             </Image>
         );
