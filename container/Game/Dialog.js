@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
         height: null
     },
     scrollView: {
-        marginTop: 22
+        marginTop: 25
     },
     dialog: {
         marginTop: 7,
