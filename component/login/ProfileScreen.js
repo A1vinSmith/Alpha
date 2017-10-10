@@ -23,19 +23,9 @@ const styles = StyleSheet.create({
 
 const ProfileScreen = ({navigation, user_name}) => (
   <View style={styles.container}>
-      <Text
-          style={styles.welcome}
-          onPress={() => navigation.navigate('Home')}>
-          Cars {user_name}
-      </Text>
       <Image
           style={styles.heartBeat}
           source={require('./assets/gif/heartBeat.gif')}/>
-      <Button
-          style={styles.welcome}
-          onPress={() => navigation.navigate('LotsOfScreen')}
-          title="Tabs">
-      </Button>
       <Text
           style={styles.welcome}
           onPress={() => navigation.navigate('MainDrawer')}>

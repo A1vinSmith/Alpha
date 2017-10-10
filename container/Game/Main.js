@@ -27,6 +27,7 @@ const MyNavScreen = ({ navigation, banner }) => (
 const InboxScreen = ({ navigation }) => (
     <ScrollView style={styles.container}>
         <StatusBar hidden={true} backgroundColor='rgba(38,38,38,1)' />
+        <Text>To be completed...</Text>
         <Text>Action Points: 5</Text>
         <Text>Exposure: 10%</Text>
     </ScrollView>
@@ -41,6 +42,7 @@ InboxScreen.navigationOptions = {
 const DraftsScreen = ({ navigation }) => (
     <ScrollView style={styles.container}>
         <StatusBar hidden={true} backgroundColor={'rgba(38,38,38,1)'} />
+        <Text>To be completed...</Text>
         <Text>Save</Text>
         <Text>Restart</Text>
         <Text>The End</Text>

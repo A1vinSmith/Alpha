@@ -18,26 +18,22 @@ class LoginScreen extends Component {
         const { navigation } = this.props;
         return (
             <View style={styles.container}>
-                <Text style={styles.welcome}>
-                    Screen A
-                </Text>
                 <TextInput
                     style={{height: 40}}
-                    placeholder="Type here to Answer!"
+                    placeholder="Who are you?"
                     onChangeText={(text) => this.setState({text})}
+                    placeholderTextColor={'gray'}
+                    color={'white'}
                 />
                 <Text style={{padding: 10, fontSize: 42}}>
                     {this.state.text.split(' ').map((word) => word && '🍪').join(' ')}
-                </Text>
-                <Text style={styles.instructions}>
-                    This is great
                 </Text>
                 <Button
                     onPress={() => {
                         navigation.dispatch(setUserName(this.state.text));
                         navigation.dispatch({ type: types.LOGIN })
                     }}
-                    title="Log in"
+                    title="Confirm"
                 />
             </View>
         )
@@ -57,7 +53,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#ffffff',
+        backgroundColor: 'rgba(0,0,0,1)',
     },
     welcome: {
         fontSize: 20,
