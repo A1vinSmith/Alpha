@@ -1,6 +1,6 @@
 ## yarn start
-sudo sysctl -w kern.maxfiles=5242880 // you may need
-then download EXPO on your phone, scan QR code, ALL done.
+#### you may need then download EXPO on your phone, scan QR code, ALL done.
+sudo sysctl -w kern.maxfiles=5242880
 
 ## Pay attention
 Use master as dev, and vice versa
