@@ -21,12 +21,12 @@ export default class DialogComponent extends Component {
 
         return (
             <View style={styles.container}>
-                <Text style={[styles.character, direction ? styles.left : styles.right]}>
+                <Text style={[styles.character, direction ? styles.right : styles.left]}>
                     {dialog.character}
                 </Text>
                 {dialog.lines.map((line,i)=>{
                     return (<Text key={i}
-                                  style={[styles.text, direction ? styles.left : styles.right]}>
+                                  style={[styles.text, direction ? styles.right : styles.left]}>
                                     {line}
                             </Text>)
                 })}
