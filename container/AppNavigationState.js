@@ -11,6 +11,7 @@ import AppNavigator             from "../component/AppNavigator"
 }))
 class AppNavigationState extends Component {
     async componentWillMount() {
+        // EXPO SDK, NEED TO BE UPDATE
         const source = require('../component/login/assets/mp3/moonLight.mp3');
         try {
             await Audio.setIsEnabledAsync(true);
