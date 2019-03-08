@@ -1,5 +1,7 @@
 # React Native Game Framework
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/A1vinSmith/Alpha.svg)](https://greenkeeper.io/)
+
 ## Run Development: 
 `npm run start`
 >tip: you may need then download EXPO on your phone, scan QR code, ALL done.
